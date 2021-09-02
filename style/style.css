@@ -1,0 +1,104 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.menu{
+    background-color: rgb(119, 115, 115);
+    text-align: center;
+}
+
+.menu ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu ul li{
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: arial;
+}
+
+/* .menu ul li:hover{
+    background-color: white;
+    color: black;
+} */
+
+
+.menu ul li a:hover{
+    color: black;
+    background-color: white;
+    padding:15px;
+}
+
+/* .home{
+    height: 100vh;
+    background-color: turquoise;
+    color: white;
+    line-height: 100vh;
+} */
+
+.home img{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.top-left {
+    position: absolute;
+    top: 120px;
+    left: 33px;
+    color: white;
+  }
+
+.team{
+    display: inline-flex;
+}
+
+/* .section-1{
+    background-color: goldenrod;
+    height: 180px;
+    width: 180px;
+    border: 2px solid goldenrod;
+    border-radius: 50%;
+    margin: 10px 75px;
+} */
+
+.section-1 img{
+    height: 180px;
+    border-radius: 50%;
+    margin: 10px 75px ;
+}
+
+.left{
+    background-color: grey;
+    color: white;
+    height: 100vh;
+    width: 50%;
+    line-height: 100vh;
+    text-align: center;
+}
+
+.right{
+    background-color: tomato;
+    height: 161px;
+    width: 600px;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    line-height: center;
+    padding: 20px;
+}
+.about-us{
+    display: inline-flex;
+    width: 100%;
+}
